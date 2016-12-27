@@ -38,10 +38,5 @@ Ruby,rb
 Rust,rs
 Scala,scala
 Scheme,scm
-ShellScript,sh
 TypeScript,ts
-VBScript,vbs
 Verilog,v
-assembly_x86,asm
-XML,xml
-XQuery,xquery
