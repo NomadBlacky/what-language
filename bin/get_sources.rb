@@ -37,7 +37,7 @@ def main
 
   puts 'Load Languages.'
   langs = csv.map do |row|
-    Language.new(row[:name], row[:name].split('|'))
+    Language.new(row[:name], row[:extension].split('|'))
   end
 
   oct = Octokit::Client.new(login: 'NomadBlacky', password: ENV['OCTOKIT_PASSWORD'])
